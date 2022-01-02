@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RuntimeIdentifier>osx.11.0-x64</RuntimeIdentifier>
+    <SuppressTrimAnalysisWarnings>true</SuppressTrimAnalysisWarnings>
+    <!--<InvariantGlobalization>true</InvariantGlobalization>-->
+    <IlcDisableReflection>true</IlcDisableReflection>
+
+    <TrimmerDefaultAction>link</TrimmerDefaultAction>
+    <IlcOptimizationPreference>Speed</IlcOptimizationPreference>
+    <IlcPgoOptimize>true</IlcPgoOptimize>
+    <IlcTrimMetadata>true</IlcTrimMetadata>
+
+    <UseSystemResourceKeys>true</UseSystemResourceKeys>
+    <EventSourceSupport>false</EventSourceSupport>
+    <DebuggerSupport>false</DebuggerSupport>
+    <IlcGenerateStackTraceData>false</IlcGenerateStackTraceData>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <RdXmlFile Include="rd.xml" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="7.0.0-*" />
+    <!--<RuntimeHostConfigurationOption Include="Switch.System.Reflection.Assembly.SimulatedCallingAssembly" Value="true" />-->
+    <!--<PackageReference Include="Microsoft.Data.SqlClient" Version="4.0.0" />-->
+    <!--<PackageReference Include="System.Runtime.Caching" Version="6.0.0" />-->
+    <!--<Reference Include="Microsoft.Data.SqlClient" />-->
+  </ItemGroup>
+</Project>

@@ -1,0 +1,41 @@
+<Directives>
+   <Application>
+      <Assembly Name="System.Data.SqlClient" Dynamic="Required All">
+         <Type Name="System.Data.SqlClient.SqlCommandBuilder" Dynamic="Required All" />
+         <Type Name="System.Data.SqlClient.SqlBulkCopy" Dynamic="Required All" />
+         <Type Name="System.Data.SqlClient.SqlConnection" Dynamic="Required All" />
+         <Type Name="System.Data.SqlClient.SqlBulkCopyOptions" Dynamic="Required All" />
+         <Type Name="System.Data.SqlClient.SqlBulkCopyOptions[]" Dynamic="Required All" />
+         <Type Name="System.Data.SqlClient.SqlConnectionFactory" Dynamic="Required All" />
+      </Assembly>
+      <Assembly Name="System.Configuration.ConfigurationManager">
+         <Type Name="System.Configuration.ClientConfigurationHost" Dynamic="Required All" />
+         <Type Name="System.Configuration.AppSettingsSection" Dynamic="Required All" />
+      </Assembly>
+      <Assembly Name="System.Runtime">
+         <Type Name="System.GC" Dynamic="Required All" />
+         <Type Name="System.Enum" Dynamic="Required All" />
+         <Type Name="System.Func`2[[System.Int32,System.Private.CoreLib],[System.Nullable`1[[System.Int32,System.Private.CoreLib]],System.Private.CoreLib]]" Dynamic="Required All" />
+         <Type Name="System.Func`4[[System.Data.IDbConnection,System.Data.Common],[System.Data.SqlClient.SqlBulkCopyOptions,System.Data.SqlClient],[System.Data.IDbTransaction,System.Data.Common],[System.Data.SqlClient.SqlBulkCopy,System.Data.SqlClient]]" Dynamic="Required All" />
+         <Type Name="System.Func`3[[System.Data.SqlClient.SqlDataReader,System.Data.SqlClient],[System.Int32,System.Private.CoreLib],[System.Data.SqlTypes.SqlBinary,System.Data.Common]]" Dynamic="Required All" />
+         <Type Name="System.Func`3[[System.Data.SqlClient.SqlDataReader,System.Data.SqlClient],[System.Int32,System.Private.CoreLib],[System.Data.SqlTypes.SqlBoolean,System.Data.Common]]" Dynamic="Required All" />
+         <Type Name="System.Func`3[[System.Data.SqlClient.SqlDataReader,System.Data.SqlClient],[System.Int32,System.Private.CoreLib],[System.Data.SqlTypes.SqlDateTime,System.Data.Common]]" Dynamic="Required All" />
+         <Type Name="System.Func`3[[System.Data.SqlClient.SqlDataReader,System.Data.SqlClient],[System.Int32,System.Private.CoreLib],[System.Data.SqlTypes.SqlByte,System.Data.Common]]" Dynamic="Required All" />
+         <Type Name="System.Func`3[[System.Data.SqlClient.SqlDataReader,System.Data.SqlClient],[System.Int32,System.Private.CoreLib],[System.Data.SqlTypes.SqlDecimal,System.Data.Common]]" Dynamic="Required All" />
+         <Type Name="System.Func`3[[System.Data.SqlClient.SqlDataReader,System.Data.SqlClient],[System.Int32,System.Private.CoreLib],[System.Data.SqlTypes.SqlDouble,System.Data.Common]]" Dynamic="Required All" />
+         <Type Name="System.Func`3[[System.Data.SqlClient.SqlDataReader,System.Data.SqlClient],[System.Int32,System.Private.CoreLib],[System.Data.SqlTypes.SqlGuid,System.Data.Common]]" Dynamic="Required All" />
+         <Type Name="System.Func`3[[System.Data.SqlClient.SqlDataReader,System.Data.SqlClient],[System.Int32,System.Private.CoreLib],[System.Data.SqlTypes.SqlInt16,System.Data.Common]]" Dynamic="Required All" />
+         <Type Name="System.Func`3[[System.Data.SqlClient.SqlDataReader,System.Data.SqlClient],[System.Int32,System.Private.CoreLib],[System.Data.SqlTypes.SqlInt32,System.Data.Common]]" Dynamic="Required All" />
+         <Type Name="System.Func`3[[System.Data.SqlClient.SqlDataReader,System.Data.SqlClient],[System.Int32,System.Private.CoreLib],[System.Data.SqlTypes.SqlInt64,System.Data.Common]]" Dynamic="Required All" />
+         <Type Name="System.Func`3[[System.Data.SqlClient.SqlDataReader,System.Data.SqlClient],[System.Int32,System.Private.CoreLib],[System.Data.SqlTypes.SqlMoney,System.Data.Common]]" Dynamic="Required All" />
+         <Type Name="System.Func`3[[System.Data.SqlClient.SqlDataReader,System.Data.SqlClient],[System.Int32,System.Private.CoreLib],[System.Data.SqlTypes.SqlSingle,System.Data.Common]]" Dynamic="Required All" />
+         <Type Name="System.Func`3[[System.Data.SqlClient.SqlDataReader,System.Data.SqlClient],[System.Int32,System.Private.CoreLib],[System.Data.SqlTypes.SqlString,System.Data.Common]]" Dynamic="Required All" />
+      </Assembly>
+      <Assembly Name="System.Threading.ThreadPool">
+         <Type Name="System.Threading.ThreadPool" Dynamic="Required All" />
+      </Assembly>
+      <Assembly Name="System.Threading">
+         <Type Name="System.Threading.Monitor" Dynamic="Required All" />
+      </Assembly>
+   </Application>
+</Directives>
