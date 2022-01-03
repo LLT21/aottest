@@ -1,4 +1,0 @@
-/Users/LLT/Projects/dotnetoni/aottest/bin/Release/net6.0/osx.11.0-x64/publish/aottest
-/Users/LLT/Projects/dotnetoni/aottest/bin/Release/net6.0/osx.11.0-x64/publish/aottest.runtimeconfig.json
-/Users/LLT/Projects/dotnetoni/aottest/bin/Release/net6.0/osx.11.0-x64/publish/aottest.pdb
-/Users/LLT/Projects/dotnetoni/aottest/bin/Release/net6.0/osx.11.0-x64/publish/aottest.deps.json

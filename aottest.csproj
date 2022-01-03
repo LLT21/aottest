@@ -9,8 +9,8 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <RuntimeIdentifier>osx.11.0-x64</RuntimeIdentifier>
     <SuppressTrimAnalysisWarnings>true</SuppressTrimAnalysisWarnings>
-    <!--<InvariantGlobalization>true</InvariantGlobalization>-->
-    <IlcDisableReflection>true</IlcDisableReflection>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <!--<IlcDisableReflection>true</IlcDisableReflection>-->
 
     <TrimmerDefaultAction>link</TrimmerDefaultAction>
     <IlcOptimizationPreference>Speed</IlcOptimizationPreference>
@@ -24,13 +24,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <RdXmlFile Include="rd.xml" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
     <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="7.0.0-*" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="4.0.0" />
+    <!--<RdXmlFile Include="rd.xml" />-->
     <!--<RuntimeHostConfigurationOption Include="Switch.System.Reflection.Assembly.SimulatedCallingAssembly" Value="true" />-->
-    <!--<PackageReference Include="Microsoft.Data.SqlClient" Version="4.0.0" />-->
+    <!--<PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />-->
+    <!--<PackageReference Include="System.Data.SqlClient" Version="4.8.3" />-->
     <!--<PackageReference Include="System.Runtime.Caching" Version="6.0.0" />-->
-    <!--<Reference Include="Microsoft.Data.SqlClient" />-->
   </ItemGroup>
 </Project>
